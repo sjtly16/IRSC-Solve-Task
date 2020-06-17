@@ -14,5 +14,6 @@ pip install -r requirements.txt
 Open the terminal in "Scheduler" directory and run the following command:
 
 ```bash
+python manage.py migrate
 python manage.py runserver
 ```
