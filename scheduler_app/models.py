@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+class Schedule(models.Model):
+    time = models.DateTimeField()
+    url = models.URLField()
+    
+    def __str__(self):
+        return self.time
