@@ -11,3 +11,4 @@ six==1.15.0
 sqlparse==0.3.1
 tzlocal==2.1
 urllib3==1.25.9
+node==13.05
